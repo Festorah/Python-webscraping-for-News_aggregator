@@ -5,7 +5,7 @@ Web scraping is primarily a way of extracting data (important information) from 
 This python web scraping project is the backbone for the News Aggregator Website using the Django Framework. 
 Watchout for the link to the news_aggregator website very soon.
 
-# Highlighted below is the list of all the pages included in the News aggregator
+## Highlighted below is the list of all the pages included in the News aggregator
 * World news
 * Politics
 * Sports
@@ -14,18 +14,18 @@ Watchout for the link to the news_aggregator website very soon.
 * Art and 
 * Blog
 
-# Technologies
+## Technologies
 Currently,
 Python 100%
 
-# Dependencies
+## Dependencies
 BeautifulSoup
 Requests
 
 
-# Author
+## Author
 Oyebami Funso
 
 
-# DISCLAIMER: 
+### DISCLAIMER: 
 This is for training and educational purposes only. Please make yourself familiar with ethical practices as they relate to scraping content from the web.Python Web scraping project
