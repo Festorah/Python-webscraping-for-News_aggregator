@@ -1,12 +1,12 @@
-# Importing dependencies
+# Importing required dependencies
 
 from bs4 import BeautifulSoup
 import requests
 
 
 # For Sports news (skysports)
-
-source = requests.get('https://www.skysports.com/football/news').text
+url_sport = 'https://www.skysports.com/football/news'
+source = requests.get(url_sport).text
 soup = BeautifulSoup(source, 'lxml')
 articles_sport = soup.find_all('div', class_='news-list__item news-list__item--show-thumb-bp30')
 count = 1
